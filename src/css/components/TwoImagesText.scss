@@ -1,0 +1,29 @@
+.two-images-text-section {
+    padding: 50px 0;
+    background: $light_grey;
+    margin-bottom: 30px;
+    .row{
+        flex-direction: column;
+    }
+    .image-text-content {
+        img {
+            object-fit: cover;
+            height: 350px;
+        }
+    }
+}
+
+.image-full-height {
+    flex: 1;
+    img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h3 {
+        font-size: 28px;
+    }
+}

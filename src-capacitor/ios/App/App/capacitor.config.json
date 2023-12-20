@@ -1,0 +1,9 @@
+{
+  "appId": "org.drevproektstroi.quasar.app",
+  "appName": "ДревПроектСтрой",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www",
+  "version": 2,
+  "versionCode": 2
+}

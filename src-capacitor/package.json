@@ -1,0 +1,17 @@
+{
+  "name": "drevproject-app",
+  "version": "2.0",
+  "versionCode": 2,
+  "description": "DrevProjectBuild",
+  "author": "Pixel <sank195951@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "2.5.0",
+    "@capacitor/ios": "2.0.0",
+    "@capacitor/cli": "^2.0.0",
+    "@capacitor/core": "^2.0.0"
+  },
+  "devDependencies": {
+    "capacitor-set-version": "^2.0.3"
+  }
+}

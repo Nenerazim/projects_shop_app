@@ -1,0 +1,69 @@
+.form-feedback {
+    margin-bottom: 30px;
+    .row {
+        background: $light_grey;
+        padding: 25px;
+    }
+    .form-success {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    .image {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: 3;
+            background: url('assets/media/images/form.webp');
+            opacity: .5;
+            width: 100%;
+            height: 100%;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        img {
+            object-fit: cover;
+            height: 350px;
+            width: 100%;
+            position: relative;
+            z-index: 5;
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .form-feedback .image img {
+        height: 300px;
+    }
+    .form-feedback {
+        .row {
+            padding: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-feedback .image img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-feedback .image img {
+        height: 200px;
+    }
+}

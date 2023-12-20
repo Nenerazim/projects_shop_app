@@ -1,0 +1,40 @@
+.lightbox-overlay {
+    position: fixed;
+    z-index: 998;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .close {
+        color: #fff;
+        font-size: 55px;
+        top: 30px;
+        right: 30px;
+        position: absolute;
+        cursor: pointer;
+        opacity: .75;
+        transition: .3s;
+        z-index: 999;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    .lightbox-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        img {
+            height: 70vh;
+            max-width: 90%;
+            object-fit: contain;
+        }
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        color: #fff;
+    }
+}
