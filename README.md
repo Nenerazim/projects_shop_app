@@ -2,6 +2,9 @@
 
 Projects shop app
 
+Node 16+
+
+
 ## Install the dependencies
 ```bash
 yarn
@@ -11,13 +14,13 @@ npm install
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
-quasar dev
+yarn quasar dev
 ```
 
 
 ### Build the app for production
 ```bash
-quasar build
+yarn quasar build
 ```
 
 ### Customize the configuration
